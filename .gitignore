@@ -8,3 +8,10 @@ miditoolkit.egg-info/
 *.pypirc
 Thumbs.db
 *.gz
+*.midi
+*.wav
+my_midi_data_checkpoint/
+my_midi_data_finetune/
+REMI-finetune/
+REMI-tempo-checkpoint/
+REMI-tempo-chord-checkpoint/

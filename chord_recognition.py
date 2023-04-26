@@ -1,6 +1,7 @@
 import miditoolkit
 import numpy as np
 
+
 class MIDIChord(object):
     def __init__(self):
         # define pitch classes
@@ -32,9 +33,9 @@ class MIDIChord(object):
 
     def note2pianoroll(self, notes, max_tick, ticks_per_beat):
         return miditoolkit.pianoroll.parser.notes2pianoroll(
-                note_stream_ori=notes,
-                max_tick=max_tick,
-                ticks_per_beat=ticks_per_beat)
+            note_stream_ori=notes,
+            max_tick=max_tick,
+            ticks_per_beat=ticks_per_beat)
 
     def sequencing(self, chroma):
         candidates = {}
@@ -99,7 +100,7 @@ class MIDIChord(object):
             sorted_notes = []
             for i, v in enumerate(np.sum(pianoroll, axis=0)):
                 if v > 0:
-                    sorted_notes.append(int(i%12))
+                    sorted_notes.append(int(i % 12))
             bass_note = sorted_notes[0]
             # root note
             __root_note = []
@@ -110,7 +111,7 @@ class MIDIChord(object):
             if len(__root_note) == 1:
                 root_note = __root_note[0]
             else:
-                #TODO: what should i do
+                # TODO: what should i do
                 for n in sorted_notes:
                     if n in __root_note:
                         root_note = n
@@ -159,8 +160,8 @@ class MIDIChord(object):
         max_tick = max([n.end for n in notes])
         ticks_per_beat = 480
         pianoroll = self.note2pianoroll(
-            notes=notes, 
-            max_tick=max_tick, 
+            notes=notes,
+            max_tick=max_tick,
             ticks_per_beat=ticks_per_beat)
         # get lots of candidates
         candidates = {}
@@ -182,7 +183,7 @@ class MIDIChord(object):
                     if end_tick not in candidates[start_tick]:
                         candidates[start_tick][end_tick] = (root_note, quality, bass_note, score)
         # greedy
-        chords = self.greedy(candidates=candidates, 
-                             max_tick=max_tick, 
+        chords = self.greedy(candidates=candidates,
+                             max_tick=max_tick,
                              min_length=ticks_per_beat)
         return chords
