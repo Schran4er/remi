@@ -10,8 +10,12 @@ Thumbs.db
 *.gz
 *.midi
 *.wav
+inp/
+my_midi_data/
 my_midi_data_checkpoint/
 my_midi_data_finetune/
 REMI-finetune/
 REMI-tempo-checkpoint/
 REMI-tempo-chord-checkpoint/
+result/
+result_synthesized/
