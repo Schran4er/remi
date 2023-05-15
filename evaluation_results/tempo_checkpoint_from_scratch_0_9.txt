@@ -1,0 +1,61 @@
+path: ./result_synthesized\tempo_checkpoint_from_scratch_0.wav
+Beat Std = 	 	 	0.0065018207647568535
+Downbeat Std = 	 	0.018196770289795775
+Downbeat Salience = 0.008188491687178612
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_1.wav
+Beat Std = 	 	 	0.005709312909815413
+Downbeat Std = 	 	0.015795245991068504
+Downbeat Salience = 0.009046506136655807
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_2.wav
+Beat Std = 	 	 	0.01899999999999991
+Downbeat Std = 	 	0.0647430819985167
+Downbeat Salience = 0.009430663660168648
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_3.wav
+Beat Std = 	 	 	0.004977272609611098
+Downbeat Std = 	 	0.017578395831247144
+Downbeat Salience = 0.010453389957547188
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_4.wav
+Beat Std = 	 	 	0.02731286383523204
+Downbeat Std = 	 	0.08811228921214165
+Downbeat Salience = 0.004626859910786152
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_5.wav
+Beat Std = 	 	 	0.012173947379428054
+Downbeat Std = 	 	0.029906316307797644
+Downbeat Salience = 0.008664175868034363
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_6.wav
+Beat Std = 	 	 	0.007272474743090298
+Downbeat Std = 	 	0.018856180831641468
+Downbeat Salience = 0.008605549111962318
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_7.wav
+Beat Std = 	 	 	0.004134195360637588
+Downbeat Std = 	 	0.00820651806648237
+Downbeat Salience = 0.009279136545956135
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_8.wav
+Beat Std = 	 	 	0.006882770417210365
+Downbeat Std = 	 	0.02177107236304037
+Downbeat Salience = 0.009515690617263317
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_9.wav
+Beat Std = 	 	 	0.00869690636939863
+Downbeat Std = 	 	0.03086889840744079
+Downbeat Salience = 0.00996759720146656
+
+-----
+
+all_results: (mean; correct = False)
+Beat Std = 	 	 	0.010266156438918022
+Downbeat Std = 	 	0.03140347692991724
+Downbeat salience = 0.008777806535363197
+
+all_results: (mean; correct = True)
+Beat Std = 	 	 	0.01698060603316308
+Downbeat Std = 	 	0.032836614466606504
+Downbeat salience = 0.008777806535363197

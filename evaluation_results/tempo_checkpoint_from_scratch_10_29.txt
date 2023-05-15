@@ -1,0 +1,214 @@
+path: ./result_synthesized\tempo_checkpoint_from_scratch_10.wav
+Beat Std = 	 	 	0.008428523002282135
+Downbeat Std = 	 	0.030110906108362985
+Downbeat Salience = 0.009624049067497253
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_11.wav
+Beat Std = 	 	 	0.04814942727529353
+Downbeat Std = 	 	0.18037151742312513
+Downbeat Salience = 0.007160501088947058
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_12.wav
+Beat Std = 	 	 	0.009170702746447195
+Downbeat Std = 	 	0.029089898972361947
+Downbeat Salience = 0.00890039186924696
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_13.wav
+Beat Std = 	 	 	0.012584780131052228
+Downbeat Std = 	 	0.036224920951731764
+Downbeat Salience = 0.009589713998138905
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_14.wav
+Beat Std = 	 	 	0.03149129010945019
+Downbeat Std = 	 	0.05933732693125673
+Downbeat Salience = 0.005448678974062204
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_15.wav
+Beat Std = 	 	 	0.018863695350264154
+Downbeat Std = 	 	0.05469206726959804
+Downbeat Salience = 0.010302367620170116
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_16.wav
+Beat Std = 	 	 	0.07428343082904568
+Downbeat Std = 	 	0.304494395243482
+Downbeat Salience = 0.008049363270401955
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_17.wav
+Beat Std = 	 	 	0.026322782696532838
+Downbeat Std = 	 	0.10498677165349059
+Downbeat Salience = 0.007567775901407003
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_18.wav
+Beat Std = 	 	 	0.0058444099780624245
+Downbeat Std = 	 	0.020763488362498014
+Downbeat Salience = 0.008639436215162277
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_19.wav
+Beat Std = 	 	 	0.006103512234975556
+Downbeat Std = 	 	0.01761261143705427
+Downbeat Salience = 0.010246898978948593
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_20.wav
+Beat Std = 	 	 	0.03810721351951915
+Downbeat Std = 	 	0.1471480767131548
+Downbeat Salience = 0.007611765060573816
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_21.wav
+Beat Std = 	 	 	0.047814080188873384
+Downbeat Std = 	 	0.19081056959557474
+Downbeat Salience = 0.008865359239280224
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_22.wav
+Beat Std = 	 	 	0.005808691324312573
+Downbeat Std = 	 	0.01751092953161602
+Downbeat Salience = 0.009264153428375721
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_23.wav
+Beat Std = 	 	 	0.004398822250819279
+Downbeat Std = 	 	0.010326308782000632
+Downbeat Salience = 0.0095167625695467
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_24.wav
+Beat Std = 	 	 	0.007329502029469773
+Downbeat Std = 	 	0.024953289696284155
+Downbeat Salience = 0.008818048983812332
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_25.wav
+Beat Std = 	 	 	0.04443892323203715
+Downbeat Std = 	 	0.17455482736121072
+Downbeat Salience = 0.007681789807975292
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_26.wav
+Beat Std = 	 	 	0.012215005084172007
+Downbeat Std = 	 	0.039475730941090074
+Downbeat Salience = 0.009741604328155518
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_27.wav
+Beat Std = 	 	 	0.00844428394368285
+Downbeat Std = 	 	0.026078766090755337
+Downbeat Salience = 0.011236228048801422
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_28.wav
+Beat Std = 	 	 	0.21552696879769687
+Downbeat Std = 	 	0.8707435161018043
+Downbeat Salience = 0.007224381435662508
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_29.wav
+Beat Std = 	 	 	0.013641195183538023
+Downbeat Std = 	 	0.05353331977871914
+Downbeat Salience = 0.006825173739343882
+
+-----
+
+all_results: (mean; correct = False)
+Beat Std = 	 	 	0.03194836199537635
+Downbeat Std = 	 	0.11964096194725857
+Downbeat salience = 0.008615721948444843
+
+--------------------------------------------------------
+
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_10.wav
+Beat Std = 	 	 	0.011074727987630251
+Downbeat Std = 	 	0.029719054867579545
+Downbeat Salience = 0.009624049067497253
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_11.wav
+Beat Std = 	 	 	0.056044625076808186
+Downbeat Std = 	 	0.17175323447818674
+Downbeat Salience = 0.007160501088947058
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_12.wav
+Beat Std = 	 	 	0.012115169984362541
+Downbeat Std = 	 	0.03422799374131567
+Downbeat Salience = 0.00890039186924696
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_13.wav
+Beat Std = 	 	 	0.015135234845790846
+Downbeat Std = 	 	0.0343834585552731
+Downbeat Salience = 0.009589713998138905
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_14.wav
+Beat Std = 	 	 	0.05118992247762549
+Downbeat Std = 	 	0.0962958404547624
+Downbeat Salience = 0.005448678974062204
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_15.wav
+Beat Std = 	 	 	0.020546973755554976
+Downbeat Std = 	 	0.05402057221302118
+Downbeat Salience = 0.010302367620170116
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_16.wav
+Beat Std = 	 	 	0.07608938278588362
+Downbeat Std = 	 	0.3066316343492195
+Downbeat Salience = 0.008049363270401955
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_17.wav
+Beat Std = 	 	 	0.030937485218991954
+Downbeat Std = 	 	0.11275764148954934
+Downbeat Salience = 0.007567775901407003
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_18.wav
+Beat Std = 	 	 	0.010900498230723268
+Downbeat Std = 	 	0.024458581770458475
+Downbeat Salience = 0.008639436215162277
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_19.wav
+Beat Std = 	 	 	0.01342560663732731
+Downbeat Std = 	 	0.029318177903061113
+Downbeat Salience = 0.010246898978948593
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_20.wav
+Beat Std = 	 	 	0.04196231652887349
+Downbeat Std = 	 	0.15205840920432606
+Downbeat Salience = 0.007611765060573816
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_21.wav
+Beat Std = 	 	 	0.049338232500408
+Downbeat Std = 	 	0.18948910905109972
+Downbeat Salience = 0.008865359239280224
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_22.wav
+Beat Std = 	 	 	0.010507408992657483
+Downbeat Std = 	 	0.022050447211388664
+Downbeat Salience = 0.009264153428375721
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_23.wav
+Beat Std = 	 	 	0.008456597889624625
+Downbeat Std = 	 	0.015118578920368808
+Downbeat Salience = 0.0095167625695467
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_24.wav
+Beat Std = 	 	 	0.011318918403814068
+Downbeat Std = 	 	0.027335365778095175
+Downbeat Salience = 0.008818048983812332
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_25.wav
+Beat Std = 	 	 	0.050572434948485616
+Downbeat Std = 	 	0.16482178928231014
+Downbeat Salience = 0.007681789807975292
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_26.wav
+Beat Std = 	 	 	0.014621095292516862
+Downbeat Std = 	 	0.05028120714425497
+Downbeat Salience = 0.009741604328155518
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_27.wav
+Beat Std = 	 	 	0.013088389179786131
+Downbeat Std = 	 	0.02889106916593804
+Downbeat Salience = 0.011236228048801422
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_28.wav
+Beat Std = 	 	 	0.21886785703793377
+Downbeat Std = 	 	0.8791086394752358
+Downbeat Salience = 0.007224381435662508
+
+path: ./result_synthesized\tempo_checkpoint_from_scratch_29.wav
+Beat Std = 	 	 	0.022009481449440333
+Downbeat Std = 	 	0.05664515397973348
+Downbeat Salience = 0.006825173739343882
+
+all_results: (mean; correct = False)
+Beat Std = 	 	 	0.03691011796121195
+Downbeat Std = 	 	0.1239682979517589
+Downbeat salience = 0.008615721948444843

@@ -24,7 +24,9 @@ def main():
         is_training=False)
 
     # generate from scratch
-    for i in range(0, 10):
+    i_start = 30
+    i_end = 31
+    for i in range(i_start, i_end):
         output_path = f'./result/tempo_checkpoint_from_scratch_{i}.midi'
         generate(model, output_path)
 
@@ -38,4 +40,5 @@ def main():
 
 
 if __name__ == '__main__':
+    print("start")
     main()
