@@ -48,7 +48,11 @@ def evaluate_rhythm(audio_path):
     downbeat_salience = [i[1] for i in act]
     salience = np.mean(downbeat_salience)
 
-    return beat_std, beat_new[:-1], downbeat_std, downbeat_new, salience
+    # salience_2
+    downbeat_salience_2 = [i[0] for i in act]
+    salience_2 = np.mean(downbeat_salience_2)
+
+    return beat_std, beat_new[:-1], downbeat_std, downbeat_new, salience, salience_2
 
 
 if __name__ == "__main__":
@@ -62,24 +66,27 @@ if __name__ == "__main__":
     results = []
     counter = 0
     for audio_path in glob.glob(f'{audio_folder}*.wav'):
-        if counter % 50 == 0:
-            df = pd.DataFrame.from_records(results, columns=['beat_std', 'downbeat_std', 'salience'])
-            df.to_csv(f'synthesized_eval_results_{counter}.csv')
 
-        beat_std, beat_new, downbeat_std, downbeat_new, salience = evaluate_rhythm(audio_path)
+        beat_std, beat_new, downbeat_std, downbeat_new, salience, salience_2 = evaluate_rhythm(audio_path)
         # prints:
         print(f"path: {audio_path}")
         print(f"Beat Std = \t \t \t{beat_std}")
         print(f"Downbeat Std = \t \t{downbeat_std}")
-        print(f"Downbeat Salience = {salience}\n")
+        print(f"Downbeat Salience = {salience}")
+        print(f"salience_2 = {salience_2}\n")
 
         # all_results[0].append(beat_std)
         # all_results[1].append(downbeat_std)
         # all_results[2].append(salience)
-        results.append((beat_std, downbeat_std, salience))
+        results.append((beat_std, downbeat_std, salience, salience_2))
+
+        if counter % 50 == 0:
+            df = pd.DataFrame.from_records(results, columns=['beat_std', 'downbeat_std', 'salience', 'salience_2'])
+            df.to_csv(f'synthesized_eval_results_{counter}.csv')
+
         counter += 1
 
-    df = pd.DataFrame.from_records(results, columns=['beat_std', 'downbeat_std', 'salience'])
+    df = pd.DataFrame.from_records(results, columns=['beat_std', 'downbeat_std', 'salience', 'salience_2'])
     df.to_csv('synthesized_eval_results.csv')
 
     # calculate mean result values
